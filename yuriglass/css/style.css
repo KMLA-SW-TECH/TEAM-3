@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.logo{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color:darkolivegreen;
+    margin-left: 100px;
+    border: 7px solid darkolivegreen;
+    padding: 10px;
+    border-radius: 16px;
+    
+}
+
+.부엉1-img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    vertical-align: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    
+}
