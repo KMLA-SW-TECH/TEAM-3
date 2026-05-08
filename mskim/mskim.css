@@ -7,3 +7,30 @@ button{
 .flag{
      transform: translateY(5px);
 }
+.top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.language{
+        color: #C2C0C0;
+    }
+
+.middle{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+  border-top: 1px solid #ccc;
+  margin-bottom: 30px;          
+  margin-top: 250px;  
+  padding-top: 10px;          
+}
+.bottom {
+    transform : translateX(500px);
+}
+.intro{
+    text-align:center;
+}
