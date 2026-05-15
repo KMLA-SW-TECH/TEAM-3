@@ -30,16 +30,26 @@ button{
     align-items: center;
 }
 footer {
+
   display: flex;
   border-top: 1px solid #ccc;
   margin-bottom: 30px;          
   margin-top: 255px;  
   padding-top: 10px;       
   justify-content: center;  
+  
+  
+}
+.countries {
+  display: flex;
+  color: #9b9b9b;
+  gap: 13px;
+  font-family: "Nunito", "Quicksand", "Arial Rounded MT Bold";
 }
 .countries button{
-    font-family: "Nunito", "Quicksand", "Arial Rounded MT Bold";
-    color: gray
+  transform: translate(-5px, 10px);
+  font-family: inherit;
+  color: #5b5b5b;
 }
 
 .intro{
