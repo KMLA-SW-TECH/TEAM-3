@@ -1,7 +1,7 @@
 body{
     background-color: white;
     color: black;
-    font-family: 'Arial', sans-serif;
+    font-family: 'SN Pro';
 
 }
 
@@ -14,7 +14,6 @@ body{
     border: 7px solid darkolivegreen;
     padding: 10px;
     border-radius: 16px;
-    
 }
 
 .부엉1-img{
@@ -26,9 +25,13 @@ body{
 
 }
 
-.hero{
+.hero-text{
     display: flex;
-    flex-direction: column; }
+    flex-direction: horizontal;
+    align-items: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'SN Pro'}
 
 .buttons{
     display: flex;
@@ -37,9 +40,23 @@ body{
     margin-left: 500px; 
 }
 
+.level:hover{
+    background-color: lightgrey;
+    width: 410px;
+    height: auto;
+}
+
 .level { 
     display: flex;
     flex-direction: column;
+    border: 2px grey solid;
+    padding: 10px;
+    margin-bottom: 20px;    
+    border-radius: 10px;
+    width: 400px;
+    height:auto
+    font-family: 'SN Pro';
+    box-shadow: 2px 2px grey;
 
 }
 
